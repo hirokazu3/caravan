@@ -23,7 +23,7 @@ const sender = event.sender.id;
     if (event.message && event.message.text) {
       const text = event.message.text;
       console.log(text)
-sendTextMessage(sender, "aaaa" + text);
+sendTextMessage(sender, "thanks for texiting me");
     }
   }
   res.sendStatus(200);
