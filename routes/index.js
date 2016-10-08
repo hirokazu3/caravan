@@ -23,7 +23,7 @@ const sender = event.sender.id;
     if (event.message && event.message.text) {
       const text = event.message.text;
       console.log(text)
-sendTextMessage(sender, "Text received, echo: " + text);
+sendTextMessage(sender, "aaaa " + text);
     }
   }
   res.sendStatus(200);
